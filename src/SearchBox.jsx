@@ -51,7 +51,7 @@ export default function SearchBox({updateInfo}){
     }
     return(
         <div>
-              <h4>Search for Wheather</h4>
+              <h4>Search for Weather</h4>
               <form onSubmit={handleSubmit}>
              <TextField id="city" label="City Name" variant="outlined" value={city} onChange={handleChange}/>
              <br/><br/>
